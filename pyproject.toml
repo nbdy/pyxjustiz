@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyxjustiz"
-version = "1.0.2"
+version = "1.0.3"
 description = "Python XJustiz XML models from official XSDs with easy parsing, serialization, and validation."
 readme = "README.md"
 requires-python = ">=3.13"
@@ -25,7 +25,6 @@ classifiers = [
 ]
 
 dependencies = [
-  "pydantic>=2.11.9",
   "xsdata[cli]>=25.7",
 ]
 
