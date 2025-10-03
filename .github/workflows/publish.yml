@@ -22,7 +22,6 @@ jobs:
         uses: astral-sh/setup-uv@v5
         with:
           python-version: '3.13'
-          cache: false
 
       - name: Build sdist and wheel with uv
         run: uv build
@@ -52,7 +51,6 @@ jobs:
         uses: astral-sh/setup-uv@v5
         with:
           python-version: '3.13'
-          cache: false
 
       - name: Publish to PyPI with uv
         env:
